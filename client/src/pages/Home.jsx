@@ -14,19 +14,19 @@ function Home() {
 
       <section className="features">
         <div className="feature">
-          <FaStethoscope size={50} color="#295590" />
+          <FaStethoscope size={30} color="#295590" />
           <p>Vorsorgeuntersuchungen</p>
         </div>
         <div className="feature">
-          <FaUserMd size={50} color="#295590" />
+          <FaUserMd size={30} color="#295590" />
           <p>Häusliche Versorgung</p>
         </div>
         <div className="feature">
-          <FaHospital size={50} color="#295590" />
+          <FaHospital size={30} color="#295590" />
           <p>Diagnostik</p>
         </div>
         <div className="feature">
-          <FaHeartbeat size={50} color="#295590" />
+          <FaHeartbeat size={30} color="#295590" />
           <p>Krankheitsbilder</p>
         </div>
       </section>
@@ -38,27 +38,18 @@ function Home() {
 
   <div className="text-container">
     <h1>
-      Dr. Kambiz Fadaei - Facharzt für Gefäßchirurgie und Endovaskuläre
-      Chirurgie
+    Herzlich willkommen in Ihrer Praxis für Gefäßmedizin
+
     </h1>
 
     <p>
-      Herzlich willkommen in unserer Praxis für Gefäßchirurgie und
-      endovaskuläre Chirurgie. Unser Team bietet Ihnen modernste
-      medizinische Versorgung und individuelle Betreuung in allen Bereichen
-      der Gefäßmedizin. Wir sind spezialisiert auf die Diagnose und
-      Behandlung von Erkrankungen der Blutgefäße und Lymphgefäße.
+    Gesunde Gefäße sind essenziell für Ihr Wohlbefinden und Ihre Lebensqualität. In unserer spezialisierten Praxis für Gefäßchirurgie und Endovaskuläre Chirurgie bieten wir Ihnen eine präzise Diagnostik, modernste Behandlungsmethoden und eine persönliche Betreuung auf höchstem medizinischen Niveau.
     </p>
     <p>
-      Zu unseren Leistungen gehören unter anderem die Behandlung von
-      Krampfadern, Arterienerkrankungen, Aneurysmen sowie minimalinvasive
-      endovaskuläre Eingriffe. Unser Ziel ist es, Ihnen eine erstklassige
-      medizinische Versorgung und persönliche Betreuung auf höchstem Niveau
-      zu bieten.
+    <strong>Dr. Kambiz Fadaei und sein erfahrenes Team</strong> begleiten Sie kompetent bei der Behandlung von arteriellen und venösen Gefäßerkrankungen – von Krampfadern über Durchblutungsstörungen bis hin zu minimalinvasiven Gefäßeingriffen. Unsere Philosophie: individuelle Therapie, schonende Verfahren und nachhaltige Prävention.
     </p>
     <p>
-      Ihre Gesundheit und Ihr Wohlbefinden stehen bei uns an erster Stelle.
-      Wir freuen uns darauf, Sie in unserer Praxis begrüßen zu dürfen!
+    Ob Routineuntersuchung oder spezialisierte Therapie – wir stehen Ihnen mit Fachwissen, innovativen Methoden und einer patientenorientierten Beratung zur Seite. Vereinbaren Sie noch heute einen Termin und lassen Sie uns gemeinsam für Ihre Gefäßgesundheit sorgen.
     </p>
   </div>
 </section>

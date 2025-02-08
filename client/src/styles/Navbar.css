@@ -1,46 +1,66 @@
-/* Navbar Container */
 .navbar {
   background-color: white;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  position: fixed;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+  /* position: fixed; */
   width: 100%;
   top: 0;
-  z-index: 10;
+  /* z-index: 10; */
 }
 
 .navbar-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin: 0 auto;
-  padding: 0.5rem 1rem;
+  padding: 0rem 1rem;
+  font-size: 15px;
+  font-weight: normal; 
+
 }
 
-/* Logo */
 /* .logo {
   font-size: 1.5rem;
   font-weight: bold;
   color: #b19267;
 } */
 .logo {
-  font-family: "Playfair Display", serif; /* Matches the font */
-  font-size: 22px; /* Desktop size */
-  font-weight: normal; /* Regular font weight */
-  line-height: 1.2; /* Adjusted for proper spacing */
-  text-align: center; /* Center-align the text */
-  color: #b19267; /* Adjust based on the logo color */
-  font-weight: bold; /* Lighter font for the subtitle */
+  font-family: "Playfair Display", serif; 
+  font-size: 22px; 
+  font-weight: normal; 
+  line-height: 1.2; 
+  text-align: center; 
+  color: #b19267; 
+  font-weight: bold; 
 }
 
 .logo .subtitle {
-  font-size: 1rem; /* Smaller font size for the subtitle */
-  font-weight: normal; /* Lighter font for the subtitle */
-  color: #666666; /* Different color for the subtitle */
-  display: block; /* Ensure the subtitle appears on a new line */
+  font-size: 1rem; 
+  font-weight: normal; 
+  color: #666666; 
+  display: block; 
 }
 
-/* Hamburger Button - Only shown on small devices */
+.info {
+  display: flex;
+  gap: 20px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "Playfair Display", serif;    line-height: 18px;
+  font-size: 0.9rem; 
+  font-weight: normal; 
+  color: #5d5b5b;
+}
+
+.info-item img {
+  height: 20px;
+}
+
+
 .hamburger {
   background: none;
   border: none;
@@ -50,17 +70,18 @@
   gap: 0.3rem;
   padding: 0;
   outline: none;
-  margin-top: 0;
+  padding-bottom: 10px;
+  margin-left: auto;
 }
+
 
 .line {
   width: 25px;
   height: 3px;
-  background-color: #333;
+  background-color: #988712;
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-/* Hamburger Open Animation */
 .line1.open {
   transform: translateY(8px) rotate(45deg);
 }
@@ -71,46 +92,91 @@
   transform: translateY(-8px) rotate(-45deg);
 }
 
-/* Navigation Links */
 .nav-links {
-  display: none; /* Hidden by default */
+
+  display: none;
   flex-direction: column;
   gap: 1rem;
   list-style: none;
   align-items: center;
   padding: 1rem 0;
-  position: absolute;
+  /* position: absolute; */
   top: 75%;
   left: 0;
   right: 0;
   background: white;
-  border-top: 1px solid #ccc;
-  z-index: 20;
+  /* z-index: 20; */
+  justify-content: center;
+  align-items: flex-start; 
+padding-left: 20px;
+font-family: "Playfair Display";
+  line-height: 18px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+
 }
 
 .nav-links.open {
-  display: flex; /* Shown when hamburger is clicked */
+  display: flex; 
+
 }
 
 .nav-links a {
   text-decoration: none;
   color: #333;
-  font-weight: bold;
+  font-weight: 600;
+  font-family: "Playfair Display";
+  line-height: 18px;
+  font-style: normal;
+  font-size: 17px;
+ 
+}
+
+@media (max-width: 450px) {
+  .info-item {
+       gap: 0px;
+      padding-right: 0px;
+      font-size: 12px;
+    }
+    .navbar-container {
+          padding: 0;
+          margin: 0px;
+          gap: 0px;
+        }
+        .logo{
+
+          margin-left: 0px;
+          margin-right: 7px;
+          padding-left: 0px;
+        }
+        .info {
+    
+       gap: 7px; 
+      }
+      .info p{
+    
+          border-left: 1px solid gray;
+          padding-left: 5px;
+         }
 }
 
 /* Large Screen Styles */
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .hamburger {
-    display: none; /* Hide the hamburger button on larger screens */
-  }
+    display: none; }
 
   .nav-links {
-    display: flex; /* Show the navigation links by default */
+    display: flex; 
     flex-direction: row;
     position: static;
     gap: 2rem;
     padding: 0;
     background: none;
     border: none;
+    border-top: 1px solid #d3d1d1;
+    padding-top: 15px;
+    padding-bottom: 5px;
+
   }
 }

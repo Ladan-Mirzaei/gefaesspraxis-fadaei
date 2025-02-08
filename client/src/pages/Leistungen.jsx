@@ -1,5 +1,7 @@
 import Slider from "../components/Slider";
 import "../styles/Home.css";
+import "../styles/Leistung.css";
+
 import {
   FaStethoscope,
   FaUserMd,
@@ -12,7 +14,7 @@ function behandlung_Gefaesserkrankungen() {
     <div className="home">
       <Slider />
 
-      <section className="features">
+      {/* <section className="features">
         <div className="feature">
           <FaStethoscope size={50} color="#295590" />
           <p>Vorsorgeuntersuchungen</p>
@@ -29,19 +31,17 @@ function behandlung_Gefaesserkrankungen() {
           <FaHeartbeat size={50} color="#295590" />
           <p>Kardiologie</p>
         </div>
-      </section>
+      </section> */}
 
-      {/* Willkommen-Text-Bereich */}
       <section className="welcome-section">
   <div className="image-container">
-    <img src="images.jpeg" alt="Dr. Kambiz Fadaei" />
+    <img src="leistung.jpg" alt="Dr. Kambiz Fadaei" />
   </div>
 
   <div className="text-container">
-    <h1>
-    Konservative Therapien zur Behandlung von Besenreisern, offenen Beinen und Co.
-
-    </h1>
+    <h3>
+    Ihre Gefäßgesundheit im Fokus
+    </h3>
 
     <p>
     Eine Vielzahl an Gefäßerkrankungen lässt sich auch ohne einen operativen Eingriff 
@@ -51,7 +51,7 @@ function behandlung_Gefaesserkrankungen() {
      kümmern er und seine Kollegen sich um die Behandlung von arteriellen Durchblutungsstörungen, 
      Gefäßverengungen, Besenreisern, offenen Beinen sowie Beinschwellungen und Ödemen.
     </p>
-    <h1>Operative Therapien zur Krampfadern Behandlung</h1>
+    {/* <h1>Operative Therapien zur Krampfadern Behandlung</h1>
 
     <p>
     Viele Patienten kommen mit dem Wunsch ihre Krampfadern behandeln zu lassen in das Gefäßzentrum am Rudolfplatz in Köln. Damit sind sie bei uns in den besten Händen – als Gefäßspezialisten haben wir schon viele tausend Krampfaderoperationen erfolgreich durchgeführt. Die operative Krampfadern Behandlung gehört heute zu den Routineeingriffen und wird in der Praxis ambulant durchgeführt. Die angebotenen  modernen und minimalinvasiven Therapieverfahren VenaSeal, Venous Closure Fast, Stripping, CHIVA und Mikroschaum-Sklerosierung machen eine äußerst sichere und schonende Entfernung der Krampfadern möglich. Gerne beraten Sie Dr. Müller und Kollegen im Vorfeld zu der individuell passenden Behandlungsmethode.
@@ -62,13 +62,12 @@ function behandlung_Gefaesserkrankungen() {
 
     <p>
     Sie benötigen einen Port oder leiden unter einem Leistenbruch? Neben der konservativen und operativen Behandlung von Gefäßerkrankungen, kümmern wir uns im Gefäßzentrum am Rudolfplatz in Köln auch kurzfristig um die Implantation eines venösen Dauerverweilsystems (Port). Zusätzlich führen wir im angegliederten Hernienzentrum Rudolfplatz Leistenbruch-Operationen kompetent durch.
-    </p>
+    </p> */}
   </div>
 </section>
 
 
 
-      {/* Zitat-Bereich */}
      
     </div>
   );

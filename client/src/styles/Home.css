@@ -5,7 +5,7 @@
 }
 
 .slider {
-  height: 300px;
+  height: 160px;
   background: url("../images/medical-home-5676.webp") center/cover no-repeat;
   display: flex;
   justify-content: flex-start;
@@ -77,16 +77,18 @@
   display: flex;
   justify-content: space-around;
   text-align: center;
-  margin: 2rem 0;
+  margin: 1rem 0;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 1rem;
+ 
 }
 
 .feature {
+  
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+   /* width: 100%;  */
   max-width: 200px;
 }
 
@@ -103,8 +105,9 @@
   display: flex;
   align-items: center; 
   justify-content: space-between; 
-  padding: 24px;
+  padding: 20px 24px 24px 24px;
   gap: 20px; 
+  align-items: flex-start; 
 }
 
 .image-container {
@@ -115,11 +118,18 @@
   width: 89%;
   height: auto;
   border-radius: 8px; 
+  padding-top: 30px;
+  margin-top: 5px;
+  align-items: flex-start; 
+
 }
 
 .text-container {
   flex: 2; 
   max-width: 600px; 
+  padding: 0px;
+
+
 }
 
 .text-container h1 {
@@ -131,6 +141,7 @@
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 16px;
+
 }
 
 
@@ -186,20 +197,28 @@
   }
   .welcome-section p {
     font-size: 0.95rem;
+    width: 100%;
+
   }
   .welcome-section {
     display: flex;
     flex-direction: column;
     margin: 10px;
+
   }
   .image-container img {
     width: 100%;
+    padding-top: 0px;
+
     
   }
-  
+  .text-container {
+    max-width: 1000px;
 }
 
-@media (max-width: 1024px) {
+}
+
+@media (min-width: 1024px) and (max-width: 1024px) {
   .quote-box p {
     font-size: 1.25rem;
   }
@@ -218,6 +237,8 @@
   .text-container {
     flex: 1;
     max-width: 600px;
+    padding-top: 9px;
+
 }
   .image-container {
     flex: 1; 
@@ -230,6 +251,11 @@
   }
   .welcome-section {
     display: flex;
+    padding: 0;
+    margin: 0px;
+    padding: 13px;
+
+
     
   }
   .image-container img {
@@ -237,10 +263,7 @@
     height: 100%;
     
   }
-  .welcome-section {
-   
-    padding: 4px;
-  }
+  
   
   
 }

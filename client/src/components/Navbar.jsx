@@ -5,6 +5,10 @@ import { NavLink } from "react-router-dom";
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
+  const handleMenuItemClick = () => {
+    setIsOpen(false); 
+  };
+
   return (
     <nav className="navbar">
       <div className="navbar-container">
@@ -12,10 +16,25 @@ function Navbar() {
           <span>Dr. Kambiz Fadaei</span>
           <span className="subtitle">Facharzt für Gefäßchirurgie</span>
           <span className="subtitle">Sankt Augustin</span>
-
         </div>
 
-        {/* Hamburger Menu Button - Only visible on small screens */}
+        <div className="info">
+          <div className="info-item">
+            <p>
+              Mo - Fr 8.00 - 13.00 <br /> Mo, Di, Do 14.00 - 17.00
+            </p>
+          </div>
+
+          <div className="info-item">
+            <p>
+              📞 02241-277 80 <br /> Praxis Sankt Augustin
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="nav">
+        {/* Hamburger Menu Button  */}
         <button
           className="hamburger sm:hidden"
           onClick={() => setIsOpen(!isOpen)}
@@ -27,27 +46,30 @@ function Navbar() {
         </button>
 
         <ul className={`nav-links ${isOpen ? "open" : ""}`}>
-        <li>
-          <NavLink to="/">Startseite</NavLink>
-          </li>
-          {/* <li>
-          <NavLink to="/behandlung-gefaesserkrankungen">Krankheitsbilder</NavLink>
+          <li>
+            <NavLink to="/" onClick={handleMenuItemClick}>
+              Startseite
+            </NavLink>
           </li>
           <li>
-          <NavLink to="/behandlung-gefaesserkrankungen">Diagnostik</NavLink>
-          </li>
-           */}
-          <li>
-          <NavLink to="/behandlung-gefaesserkrankungen">Leistungen</NavLink>
+            <NavLink to="/leistungen" onClick={handleMenuItemClick}>
+              Leistungen
+            </NavLink>
           </li>
           <li>
-          <NavLink to="/behandlung-gefaesserkrankungen">Termin</NavLink>
+            <NavLink to="/behandlung-gefaesserkrankungen" onClick={handleMenuItemClick}>
+              Termin
+            </NavLink>
           </li>
           <li>
-            <a href="#team">Unser Team</a>
+            <a href="#team" onClick={handleMenuItemClick}>
+              Unser Team
+            </a>
           </li>
           <li>
-            <a href="#contact">Kontakt</a>
+            <a href="#contact" onClick={handleMenuItemClick}>
+              Kontakt
+            </a>
           </li>
         </ul>
       </div>

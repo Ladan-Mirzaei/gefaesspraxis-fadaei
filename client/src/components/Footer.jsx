@@ -5,12 +5,10 @@ export default function Footer() {
   return (
     <div>
       <div className="main-content">
-        {/*  main page  */}
       </div>
 
       <footer className="footer">
         <div className="footer-container">
-          {/* First Row: Left and Right Sections */}
           <div className="footer-first-row">
             {/* Left Section */}
             <div className="footer-left">

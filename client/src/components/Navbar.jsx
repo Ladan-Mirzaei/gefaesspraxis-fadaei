@@ -57,9 +57,13 @@ function Navbar() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/behandlung-gefaesserkrankungen" onClick={handleMenuItemClick}>
-              Termin
-            </NavLink>
+          <a
+            href="https://www.doctolib.de/einzelpraxis/sankt-augustin/gefaesschirurgische-praxis-dr-fadaei"
+            className="appointment-button"
+            target="_blank"
+            rel="noopener noreferrer"
+          >              Termin
+            </a>
           </li>
           <li>
             <a href="#team" onClick={handleMenuItemClick}>

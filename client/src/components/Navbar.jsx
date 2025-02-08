@@ -59,7 +59,7 @@ function Navbar() {
           <li>
           <a
             href="https://www.doctolib.de/einzelpraxis/sankt-augustin/gefaesschirurgische-praxis-dr-fadaei"
-            className="appointment-button"
+            
             target="_blank"
             rel="noopener noreferrer"
           >              Termin

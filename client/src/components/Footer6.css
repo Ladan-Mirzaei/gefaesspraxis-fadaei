@@ -1,0 +1,117 @@
+/* Footer.css */
+.footer {
+    background-color: #1e3a8a; 
+    color: white;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 6px;
+  }
+  
+  .footer-row {
+    display: flex;
+    flex-direction: column; /* Default to column for small screens */
+    gap: 16px;
+  }
+  
+  /* First row (left and right sections) */
+  .footer-first-row {
+    display: flex;
+    flex-direction: row; /* Side by side for large screens */
+    justify-content: space-between;
+    gap: 16px;
+  }
+  
+  .footer-left,
+  .footer-right {
+    padding: 16px;
+    width: 100%;
+  }
+  
+  /* .footer-left {
+    background-color: #2563eb; 
+  }
+  
+  .footer-right {
+    background-color: #1d4ed8; 
+  
+  /* Left Section */
+  .footer-left h4 {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  
+  .footer-left p,
+  .footer-left a {
+    font-size: 14px;
+    color: aliceblue;
+  }
+  
+  .footer-left a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Right Section */
+  .footer-right h5 {
+    font-weight: 600;
+  }
+  
+  .footer-right ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-right li {
+    font-size: 14px;
+  }
+  
+  /* Bottom Section */
+.footer-bottom {
+    background-color: #1e3a8a; /* Same blue as the main background */
+    border-top: 2px solid white; /* Border between sections */
+    display: flex;
+    justify-content: space-between; /* Distribute content with space between */
+    align-items: center; /* Align vertically to the center */
+  }
+  
+  .footer-bottom p {
+    font: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:aliceblue
+
+  }
+  .footer-bottom a {
+    font: 12px;
+    color:aliceblue
+
+  }
+  
+  .footer-bottom a:hover {
+    text-decoration: underline;
+color:rgb(216, 210, 126)
+  }
+  
+  /* Responsive design for medium screens and above */
+  @media (min-width: 768px) {
+    .footer-first-row {
+      flex-direction: row; /* Side by side layout for large screens */
+    }
+  
+    .footer-left,
+    .footer-right {
+      width: 48%; /* Adjust width to fit side by side */
+    }
+  
+    .footer-bottom {
+      width: 100%;
+    }
+  }
+  
+  
+  .footer {
+    margin-top: auto; }
+  

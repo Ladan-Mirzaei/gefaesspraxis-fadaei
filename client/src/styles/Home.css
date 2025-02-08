@@ -1,0 +1,247 @@
+.home {
+  color: #333;
+  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+}
+
+.slider {
+  height: 300px;
+  background: url("../images/medical-home-5676.webp") center/cover no-repeat;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  text-align: center;
+  color: white;
+  padding: 1rem;
+}
+
+.slider .slide h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.slider .slide button {
+  background: transparent;
+  color: #333;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.appointment-button {
+  margin: 0 auto; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #107aca;
+  color: #ffffff;
+  font-size: 16px;
+  /* overflow: hidden; */
+  font-family: Roboto, sans-serif;
+  box-sizing: border-box;
+  padding: 0 20px;
+  height: 60px;
+  text-decoration: none;
+  position: relative;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-radius: 24px;
+  width: 100%;
+  max-width: 490px;
+}
+.appointment-button img {
+  height: 40px;
+  width: auto;
+  vertical-align: middle;
+  margin-left: 20px; 
+}
+@media (max-width: 768px) {
+  .slider {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .slider .slide h2 {
+    font-size: 1.25rem;
+  }
+
+  .slider .slide button {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 200px;
+}
+
+.feature p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+
+
+
+.welcome-section {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 24px;
+  gap: 20px; 
+}
+
+.image-container {
+  flex: 1; 
+}
+
+.image-container img {
+  width: 89%;
+  height: auto;
+  border-radius: 8px; 
+}
+
+.text-container {
+  flex: 2; 
+  max-width: 600px; 
+}
+
+.text-container h1 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.text-container p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+
+
+.quote-section {
+  background-color: #d9b887;
+  padding: 3rem 1rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.quote-box {
+  max-width: 700px;
+  margin: 0 auto;
+  color: white;
+}
+
+.quote-box p {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.quote-box span {
+  display: block;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  color: #f7f7f7;
+}
+
+@media (max-width: 768px) {
+  .quote-box p {
+    font-size: 1.25rem;
+  }
+
+  .quote-box span {
+    font-size: 0.9rem;
+  }
+  .features {
+    margin: 1rem 0;
+  }
+
+  .feature p {
+    font-size: 0.9rem;
+  }
+  
+  
+  .image-container {
+    flex: 1; 
+  }
+  .welcome-section h1 {
+    font-size: 1.5rem;
+  }
+  .welcome-section p {
+    font-size: 0.95rem;
+  }
+  .welcome-section {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  .image-container img {
+    width: 100%;
+    
+  }
+  
+}
+
+@media (max-width: 1024px) {
+  .quote-box p {
+    font-size: 1.25rem;
+  }
+
+  .quote-box span {
+    font-size: 0.9rem;
+  }
+  .features {
+    margin: 1rem 0;
+  }
+
+  .feature p {
+    font-size: 0.9rem;
+  }
+  
+  .text-container {
+    flex: 1;
+    max-width: 600px;
+}
+  .image-container {
+    flex: 1; 
+  }
+  .welcome-section h1 {
+    font-size: 1.5rem;
+  }
+  .welcome-section p {
+    font-size: 0.95rem;
+  }
+  .welcome-section {
+    display: flex;
+    
+  }
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    
+  }
+  .welcome-section {
+   
+    padding: 4px;
+  }
+  
+  
+}
+

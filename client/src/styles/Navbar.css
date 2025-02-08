@@ -1,0 +1,116 @@
+/* Navbar Container */
+.navbar {
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+}
+
+/* Logo */
+/* .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #b19267;
+} */
+.logo {
+  font-family: "Playfair Display", serif; /* Matches the font */
+  font-size: 22px; /* Desktop size */
+  font-weight: normal; /* Regular font weight */
+  line-height: 1.2; /* Adjusted for proper spacing */
+  text-align: center; /* Center-align the text */
+  color: #b19267; /* Adjust based on the logo color */
+  font-weight: bold; /* Lighter font for the subtitle */
+}
+
+.logo .subtitle {
+  font-size: 1rem; /* Smaller font size for the subtitle */
+  font-weight: normal; /* Lighter font for the subtitle */
+  color: #666666; /* Different color for the subtitle */
+  display: block; /* Ensure the subtitle appears on a new line */
+}
+
+/* Hamburger Button - Only shown on small devices */
+.hamburger {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 0;
+  outline: none;
+  margin-top: 0;
+}
+
+.line {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Hamburger Open Animation */
+.line1.open {
+  transform: translateY(8px) rotate(45deg);
+}
+.line2.open {
+  opacity: 0;
+}
+.line3.open {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+/* Navigation Links */
+.nav-links {
+  display: none; /* Hidden by default */
+  flex-direction: column;
+  gap: 1rem;
+  list-style: none;
+  align-items: center;
+  padding: 1rem 0;
+  position: absolute;
+  top: 75%;
+  left: 0;
+  right: 0;
+  background: white;
+  border-top: 1px solid #ccc;
+  z-index: 20;
+}
+
+.nav-links.open {
+  display: flex; /* Shown when hamburger is clicked */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Large Screen Styles */
+@media (min-width: 768px) {
+  .hamburger {
+    display: none; /* Hide the hamburger button on larger screens */
+  }
+
+  .nav-links {
+    display: flex; /* Show the navigation links by default */
+    flex-direction: row;
+    position: static;
+    gap: 2rem;
+    padding: 0;
+    background: none;
+    border: none;
+  }
+}

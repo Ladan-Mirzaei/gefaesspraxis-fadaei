@@ -5,7 +5,7 @@ import App from "./App";
 import Home from "./pages/Home";
 import Leistungen from "./pages/Leistungen";
 import Contact from "./pages/Contact"
-import HealthInfo from "./pages/healthInfo"
+// import HealthInfo from "./pages/healthInfo"
 
 const router = createBrowserRouter([
   {
@@ -24,10 +24,10 @@ const router = createBrowserRouter([
         path: "/kontakt-anfahrt",
         element: <Contact />,
       },
-      {
-        path: "/erkrankungen",
-        element: <HealthInfo />,
-      },
+      // {
+      //   path: "/erkrankungen",
+      //   element: <HealthInfo />,
+      // },
     ],
   },
 ]);

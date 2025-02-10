@@ -5,7 +5,9 @@
 }
 
 .slider {
-  height: 160px;
+  /* height: 160px; */
+  height: 190px;
+
   background: url("../images/medical-home-5676.webp") center/cover no-repeat;
   display: flex;
   justify-content: flex-start;

@@ -1,3 +1,33 @@
 h3{
     font-size: 20px;
 }
+
+.blue-icon-list {
+    list-style: none;
+    padding-left: 0;
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 90px;
+}
+.blue-icon-list ul{
+    list-style: none;
+
+}
+.blue-icon-list li {
+
+    position: relative;
+    padding-left: 30px; 
+}
+
+.blue-icon-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 10px; 
+    height: 10px;
+    background-image: url("icons8-ladeanimation.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: translateY(-50%); 
+}

@@ -64,11 +64,26 @@ function behandlung_Gefaesserkrankungen() {
     Sie benötigen einen Port oder leiden unter einem Leistenbruch? Neben der konservativen und operativen Behandlung von Gefäßerkrankungen, kümmern wir uns im Gefäßzentrum am Rudolfplatz in Köln auch kurzfristig um die Implantation eines venösen Dauerverweilsystems (Port). Zusätzlich führen wir im angegliederten Hernienzentrum Rudolfplatz Leistenbruch-Operationen kompetent durch.
     </p> */}
   </div>
+
+  
 </section>
 
 
 
-     
+<div className="blue-icon-list"><ul >
+<li><h3>Individuelle Gesundheitsleistungen (IGEL)</h3></li>
+    <li>Ausführliche Gesundheits- und Vorsorgeuntersuchung (einmalig vor dem 35. und ab dem 35. Lebensjahr alle 3 Jahre)</li>
+    <li>Geriatrische Betreuung</li>
+    <li>Beratung und Begleitung chronischer Krankheiten</li>
+    <li>Teilnahme am strukturierten Behandlungsprogramm (DMP) der Krankenkassen für:</li>
+    <ul>
+      <li><h3>Individuelle Gesundheitsleistungen (IGEL)</h3></li>
+        <li>Koronare Herzerkrankung (KHK)</li>
+        <li>Diabetes mellitus</li>
+        <li>Asthma und COPD</li>
+        <li>Herzinsuffizienz</li>
+    </ul>
+</ul></div>
     </div>
   );
 }

@@ -21,13 +21,14 @@ function Navbar() {
         <div className="info">
           <div className="info-item">
             <p>
-              Mo - Fr 8.00 - 13.00 <br /> Mo, Di, Do 14.00 - 17.00
+              Mo - Fr 9.00 - 13.00 <br /> Mo, Di, Do 14.00 - 19.00
             </p>
           </div>
 
           <div className="info-item">
             <p>
-              📞 02241-277 80 <br /> Praxis Sankt Augustin
+              {/* 📞 02241-277 80  */}
+              <br /> Schulstraße 38, 53757 Sankt Augustin
             </p>
           </div>
         </div>
@@ -61,7 +62,7 @@ function Navbar() {
             href="https://www.doctolib.de/einzelpraxis/sankt-augustin/gefaesschirurgische-praxis-dr-fadaei"
             
             target="_blank"
-            // rel="noopener noreferrer"
+            rel="noopener noreferrer"
           >              Termin
             </a>
           </li>
@@ -71,9 +72,7 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <a href="#contact" onClick={handleMenuItemClick}>
-              Kontakt
-            </a>
+          <NavLink to="/kontakt-anfahrt" onClick={handleMenuItemClick}> Kontakt</NavLink>
           </li>
         </ul>
       </div>

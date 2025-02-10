@@ -33,7 +33,7 @@ function Home() {
 
       <section className="welcome-section">
   <div className="image-container">
-    <img src="medical-home-5667.jpg" alt="Dr. Kambiz Fadaei" />
+    <img src="medical-home-5668.jpg" alt="Dr. Kambiz Fadaei" />
   </div>
 
   <div className="text-container">

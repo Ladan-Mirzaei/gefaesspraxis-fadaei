@@ -14,17 +14,14 @@ function Contact() {
 <section className="welcome-section">
   <div className="image-container">
   <p>
-          <a
-            href="https://www.google.com/maps?q=Am+Wolfsbach+53,+53229+Bonn"
-            target="_blank"
-            rel="noopener noreferrer"
-            
-          >
+  <a href="https://www.google.com/maps?q=Schulstraße+38,+53757+Sankt+Augustin" 
+   target="_blank" 
+   rel="noopener noreferrer">
             Auf Google Maps öffnen
           </a>
         </p> 
         <div className="image-container">
-    <img src="53125_praxis-am-clementiaweg.jpg" alt="praxis-am-clementiaweg" />
+    <img src="53757_praxis-Schulstraße 38.jpeg" alt="praxis-am-clementiaweg" />
   </div>
   
          </div>
@@ -34,15 +31,15 @@ function Contact() {
 
 <h3><strong>Facharzt für Gefäßchirurgie</strong></h3>
 <p>Dr. Kambiz Fadaei</p>
-<p>Am Wolfsbach 53</p>
-<p>53229 Sankt Augusting</p>
-<p>Tel. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0228 – 763 77 20</p>
-<p>Fax &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0228 – 763 77 21</p>
-<p>E-Mail&nbsp;&nbsp; info@hausarzt-brs.de</p>
+<p>Schulstraße 38 </p>
+<p>53757 Sankt Augusting</p>
+{/* <p>Tel. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0228 – 763 77 20</p> */}
+{/* <p>Fax &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0228 – 763 77 21</p> */}
+<p>E-Mail&nbsp;&nbsp; info@info@gefaesspraxis-fadaei.de</p>
 <p><strong>www.gefaesspraxis-fadaei.de</strong></p>
 <h3>Telefonische Erreichbarkeit:</h3>
-<p>Mo-Fr:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;8-12 Uhr</p>
-<p>Mo, Di, Do:&nbsp; 14-17 Uhr</p>
+<p>Mo-Fr:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;9-13 Uhr</p>
+<p>Mo, Di, Do:&nbsp; 14-19 Uhr</p>
 
 
 		</div>

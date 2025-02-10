@@ -13,20 +13,20 @@ export default function Footer() {
             {/* Left Section */}
             <div className="footer-left">
               <h4>MVZ Das Gefäßzentrum am Rudolfplatz</h4>
-              <p>Richard-Wagner-Straße 9-17, 50674 Köln</p>
-              <p>Fon: +49 (0)221 / 924 75 - 0</p>
-              <p>Email: <a href="mailto:info@angio-koeln.de">info@angio-koeln.de</a></p>
+              <p>Schulstraße 38, 53757 Sankt Augustin</p>
+              {/* <p>Fon: +49 (0)221 / 924 75 - 0</p> */}
+              <p>Email: <a href="mailto:info@gefaesspraxis-fadaei.de">info@gefaesspraxis-fadaei.de</a></p>
             </div>
 
             {/* Right Section */}
             <div className="footer-right">
               <h5>Unsere Sprechzeiten:</h5>
               <ul>
-                <li>Montag: 07:30 - 16:30 Uhr</li>
-                <li>Dienstag: 07:30 - 16:30 Uhr</li>
-                <li>Mittwoch: 07:30 - 13:00 Uhr</li>
-                <li>Donnerstag: 07:30 - 16:30 Uhr</li>
-                <li>Freitag: 07:30 - 13:00 Uhr</li>
+                <li>Montag: 9:00 - 13:00, 14:00 - 19:00 Uhr</li>
+                <li>Dienstag: 9:00 - 13:00, 14:00 - 19:00 Uhr</li>
+                <li>Mittwoch: 09:00 - 13:00 Uhr</li>
+                <li>Donnerstag: 9:00 - 13:00, 14:00 - 19:00 Uhr</li>
+                <li>Freitag: 09:00 - 13:00 Uhr</li>
               </ul>
               <p>Behandlung nur nach Terminvereinbarung!
 
@@ -43,7 +43,7 @@ export default function Footer() {
           {/* Second Row: Bottom Section */}
           <div className="footer-bottom">
             <p>Copyright © 2016 - 2025 alle Rechte vorbehalten</p>
-            <p><a href="/impressum">Impressum</a></p>
+            {/* <p><a href="/impressum">Impressum</a></p> */}
           </div>
         </div>
       </footer>

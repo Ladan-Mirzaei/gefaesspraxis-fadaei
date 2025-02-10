@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="footer-first-row">
             {/* Left Section */}
             <div className="footer-left">
-              <h4>MVZ Das Gefäßzentrum am Rudolfplatz</h4>
+              <h4>Dr. Kambiz Fadaei <br/>Facharzt für Gefäßchirurgie</h4>
               <p>Schulstraße 38, 53757 Sankt Augustin</p>
               {/* <p>Fon: +49 (0)221 / 924 75 - 0</p> */}
               <p>Email: <a href="mailto:info@gefaesspraxis-fadaei.de">info@gefaesspraxis-fadaei.de</a></p>

@@ -14,7 +14,7 @@ export default function Footer() {
             <div className="footer-left">
               <h4>Dr. Kambiz Fadaei <br/>Facharzt für Gefäßchirurgie</h4>
               <p>Schulstraße 38, 53757 Sankt Augustin</p>
-              {/* <p>Fon: +49 (0)221 / 924 75 - 0</p> */}
+              { <p>Tel.: +49 (0)1573-2869453</p> }
               <p>Email: <a href="mailto:info@gefaesspraxis-fadaei.de">info@gefaesspraxis-fadaei.de</a></p>
             </div>
 

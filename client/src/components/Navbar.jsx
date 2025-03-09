@@ -27,7 +27,7 @@ function Navbar() {
 
           <div className="info-item">
             <p>
-              {/* 📞 02241-277 80  */}
+               📞 01573-2869453
               <br /> Schulstraße 38, 53757 Sankt Augustin
             </p>
           </div>

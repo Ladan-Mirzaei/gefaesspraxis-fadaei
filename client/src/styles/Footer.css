@@ -46,6 +46,8 @@
 .footer-left a {
   font-size: 14px;
   color: aliceblue;
+  text-decoration:none;
+
 }
 
 .footer-left a:hover {

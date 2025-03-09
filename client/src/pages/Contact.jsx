@@ -33,10 +33,10 @@ function Contact() {
 <p>Dr. Kambiz Fadaei</p>
 <p>Schulstraße 38 </p>
 <p>53757 Sankt Augusting</p>
-{/* <p>Tel. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0228 – 763 77 20</p> */}
+<p>Tel. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +49 (0)1573-2869453</p> 
 {/* <p>Fax &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0228 – 763 77 21</p> */}
-<p>E-Mail&nbsp;&nbsp; info@info@gefaesspraxis-fadaei.de</p>
-<p><strong>www.gefaesspraxis-fadaei.de</strong></p>
+<span className="email-container-contact"><p >E-Mail&nbsp;&nbsp; <a href="mailto:info@gefaesspraxis-fadaei.de">info@gefaesspraxis-fadaei.de</a></p></span>
+{/* <p><strong>www.gefaesspraxis-fadaei.de</strong></p> */}
 <h3>Telefonische Erreichbarkeit:</h3>
 <p>Mo-Fr:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;9-13 Uhr</p>
 <p>Mo, Di, Do:&nbsp; 14-19 Uhr</p>

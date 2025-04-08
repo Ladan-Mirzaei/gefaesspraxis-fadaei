@@ -1,1 +1,2 @@
-web: npm run start 
+web: serve -s dist -l $PORT
+

@@ -38,8 +38,8 @@ function Contact() {
 <span className="email-container-contact"><p >E-Mail&nbsp;&nbsp; <a href="mailto:info@gefaesspraxis-fadaei.de">info@gefaesspraxis-fadaei.de</a></p></span>
 {/* <p><strong>www.gefaesspraxis-fadaei.de</strong></p> */}
 <h3>Telefonische Erreichbarkeit:</h3>
-<p>Mo-Fr:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;9-13 Uhr</p>
-<p>Mo, Di, Do:&nbsp; 14-19 Uhr</p>
+<p>Mo-Fr:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;9-15 Uhr</p>
+<p>Di:&nbsp; 15-18 Uhr</p>
 
 
 		</div>

@@ -14,7 +14,7 @@ function IconMenu() {
       </div>
       <div className="feature">
         <FaUserMd size={30} color="#295590" />
-        <p>Häusliche Versorgung</p>
+        <p>Haubesuch nach Terminvereinbarung</p>
       </div>
       <div className="feature">
         <FaHospital size={30} color="#295590" />

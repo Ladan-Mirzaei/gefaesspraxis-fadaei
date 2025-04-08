@@ -44,12 +44,12 @@ function behandlung_Gefaesserkrankungen() {
     </h3>
 
     <p>
-    Eine Vielzahl an Gefäßerkrankungen lässt sich auch ohne einen operativen Eingriff 
-    gut behandeln. Dabei richtet sich das Therapiemittel vor allem nach dem Fortschritt 
-    der Gefäßerkrankung. In unserer Praxis ist Dr. Streminski der Experte für die schonende,
+     In unserer Praxis ist Dr. Fadaei der Experte für die
      konservative Behandlung von Gefäßerkrankungen: Mit individuell angepassten Behandlungsmaßnahmen 
-     kümmern er und seine Kollegen sich um die Behandlung von arteriellen Durchblutungsstörungen, 
-     Gefäßverengungen, Besenreisern, offenen Beinen sowie Beinschwellungen und Ödemen.
+     kümmert er sich um die Behandlung von arteriellen Durchblutungsstörungen der Extremitäten, 
+     Gefäßverengungen und Gefäßerweiterunngen (Aneurysma), Besenreisern, offenen Beinen, chronische Wunden 
+     sowie Beinschwellungen und Ödemen. Die schlecht heilende Wunden bei Diabetikern.
+     Hausbesuch der immobile Patientinen und Patienten.
     </p>
     {/* <h1>Operative Therapien zur Krampfadern Behandlung</h1>
 
@@ -72,20 +72,20 @@ function behandlung_Gefaesserkrankungen() {
 
 <div className="blue-icon-list"><ul >
 <li><h3>Individuelle Gesundheitsleistungen (IGEL)</h3></li>
-    <li>Ausführliche Gesundheits- und Vorsorgeuntersuchung (einmalig vor dem 35. und ab dem 35. Lebensjahr alle 3 Jahre)</li>
-    <li>Geriatrische Betreuung</li>
-    <li>Beratung und Begleitung chronischer Krankheiten</li>
-    <li>Teilnahme am strukturierten Behandlungsprogramm (DMP) der Krankenkassen für:</li>
+    <li>Ausführliche Gesundheits- und Vorsorgeuntersuchungen, Untersuchung der Hals- und Bauchschlagader</li>
+
+    <li>Beratung und Begleitung der Patienten mit chronischen Wunden
     <ul>
-      <li><h3>Individuelle Gesundheitsleistungen (IGEL)</h3></li>
-        <li>Koronare Herzerkrankung (KHK)</li>
-        <li>Diabetes mellitus</li>
-        <li>Asthma und COPD</li>
-        <li>Herzinsuffizienz</li>
-    </ul>
-</ul></div>
+      <li><h3>Individuelle Gesundheitsleistungen (IGEL), Verödung der Krampfader und Besenreiser</h3></li>
+        <li>Diagnostik und Therapie der venöse Erkrankungen, Krampfader, offene Beine, Raucher Beine</li>
+        <li>Diabetes mellitus, schlechtheilende Wunden</li>
+        <li>Schaufenster Erkrankungen</li>
+        </ul>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }
 
-export default behandlung_Gefaesserkrankungen;
+export default BehandlungGefaesserkrankungen;

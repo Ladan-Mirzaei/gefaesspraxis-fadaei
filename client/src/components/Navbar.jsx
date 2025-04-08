@@ -21,14 +21,15 @@ function Navbar() {
         <div className="info">
           <div className="info-item">
             <p>
-              Mo - Fr 9.00 - 13.00 <br /> Mo, Di, Do 14.00 - 19.00
+              Mo - Fr 9.00 - 15.00 <br /> Di 16.00 - 18.30
             </p>
           </div>
 
           <div className="info-item">
             <p>
                📞 01573-2869453
-              <br /> Schulstraße 38, 53757 Sankt Augustin
+               📞 02241-9427418
+              <br /> Schulstr. 38, 53757 Sankt Augustin
             </p>
           </div>
         </div>

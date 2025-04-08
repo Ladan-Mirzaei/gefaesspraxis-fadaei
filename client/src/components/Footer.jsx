@@ -20,13 +20,15 @@ export default function Footer() {
 
             {/* Right Section */}
             <div className="footer-right">
+            <h5>Gesetzlich und privat Versicherte sowie Selbstzahlende</h5>
+
               <h5>Unsere Sprechzeiten:</h5>
               <ul>
-                <li>Montag: 9:00 - 13:00, 14:00 - 19:00 Uhr</li>
-                <li>Dienstag: 9:00 - 13:00, 14:00 - 19:00 Uhr</li>
-                <li>Mittwoch: 09:00 - 13:00 Uhr</li>
-                <li>Donnerstag: 9:00 - 13:00, 14:00 - 19:00 Uhr</li>
-                <li>Freitag: 09:00 - 13:00 Uhr</li>
+                <li>Montag: 9:00 - 15:00</li>
+                <li>Dienstag: 9:00 - 15:00, 16:00 - 18:00 Uhr</li>
+                <li>Mittwoch: 09:00 - 15:00 Uhr</li>
+                <li>Donnerstag: 8:00 - 15:00</li>
+                <li>Freitag: 9:00 - 15:00 Uhr</li>
               </ul>
               <p>Behandlung nur nach Terminvereinbarung!
 

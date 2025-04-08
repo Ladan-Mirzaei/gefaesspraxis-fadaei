@@ -88,4 +88,4 @@ function behandlung_Gefaesserkrankungen() {
   );
 }
 
-export default BehandlungGefaesserkrankungen;
+export default behandlung_Gefaesserkrankungen;

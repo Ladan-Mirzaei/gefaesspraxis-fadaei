@@ -34,7 +34,7 @@ function Contact() {
 <p>Schulstraße 38 </p>
 <p>53757 Sankt Augusting</p>
 <p>Tel. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +49 (0)1573-2869453</p> 
-{/* <p>Fax &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0228 – 763 77 21</p> */}
+ <p>Fax &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0228 – 763 77 21</p> 
 <span className="email-container-contact"><p >E-Mail&nbsp;&nbsp; <a href="mailto:info@gefaesspraxis-fadaei.de">info@gefaesspraxis-fadaei.de</a></p></span>
 {/* <p><strong>www.gefaesspraxis-fadaei.de</strong></p> */}
 <h3>Telefonische Erreichbarkeit:</h3>

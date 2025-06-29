@@ -19,7 +19,7 @@ function Home() {
         </div>
         <div className="feature">
           <FaUserMd size={30} color="#295590" />
-          <p>Häusliche Versorgung</p>
+          <p>Haubesuch nach Terminvereinbarung</p>
         </div>
         <div className="feature">
           <FaHospital size={30} color="#295590" />
@@ -33,20 +33,18 @@ function Home() {
 
       <section className="welcome-section">
   <div className="image-container">
-    <img src="medical-home-5669.jpg" alt="Dr. Kambiz Fadaei" />
+    <img src="medical-home-5669.jpg" alt="Gefäßpraxis Dr.Kambiz Fadaei in Sankt Augustin" />
   </div>
 
   <div className="text-container">
-    <h1>
-    Herzlich willkommen in Ihrer Praxis für Gefäßmedizin
+  <h1>Willkommen in der Gefäßpraxis Fadaei</h1>
 
-    </h1>
 
     <p>
     Gesunde Gefäße sind essenziell für Ihr Wohlbefinden und Ihre Lebensqualität. In unserer spezialisierten Praxis für Gefäßchirurgie und Endovaskuläre Chirurgie bieten wir Ihnen eine präzise Diagnostik, modernste Behandlungsmethoden und eine persönliche Betreuung auf höchstem medizinischen Niveau.
     </p>
     <p>
-    <strong>Dr. Kambiz Fadaei und sein erfahrenes Team</strong> begleiten Sie kompetent bei der Behandlung von arteriellen und venösen Gefäßerkrankungen – von Krampfadern über Durchblutungsstörungen bis hin zu minimalinvasiven Gefäßeingriffen. Unsere Philosophie: individuelle Therapie, schonende Verfahren und nachhaltige Prävention.
+    <strong>Kambiz Fadaei und sein erfahrenes Team</strong> begleiten Sie kompetent bei der Behandlung von arteriellen und venösen Gefäßerkrankungen – von Krampfadern über Durchblutungsstörungen bis hin zu minimalinvasiven Gefäßeingriffen. Unsere Philosophie: individuelle Therapie, schonende Verfahren und nachhaltige Prävention.
     </p>
     <p>
     Ob Routineuntersuchung oder spezialisierte Therapie – wir stehen Ihnen mit Fachwissen, innovativen Methoden und einer patientenorientierten Beratung zur Seite. Vereinbaren Sie noch heute einen Termin und lassen Sie uns gemeinsam für Ihre Gefäßgesundheit sorgen.

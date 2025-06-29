@@ -35,7 +35,7 @@ function behandlung_Gefaesserkrankungen() {
 
       <section className="welcome-section">
   <div className="image-container">
-    <img src="leistung.jpg" alt="Dr. Kambiz Fadaei" />
+    <img src="leistung-25356.jpeg" alt="Gefäßpraxis Dr.Kambiz Fadaei in Sankt Augustin" />
   </div>
 
   <div className="text-container">
@@ -44,7 +44,7 @@ function behandlung_Gefaesserkrankungen() {
     </h3>
 
     <p>
-     In unserer Praxis ist Dr. Fadaei der Experte für die
+     In unserer Praxis ist Fadaei der Experte für die
      konservative Behandlung von Gefäßerkrankungen: Mit individuell angepassten Behandlungsmaßnahmen 
      kümmert er sich um die Behandlung von arteriellen Durchblutungsstörungen der Extremitäten, 
      Gefäßverengungen und Gefäßerweiterunngen (Aneurysma), Besenreisern, offenen Beinen, chronische Wunden 
@@ -70,18 +70,17 @@ function behandlung_Gefaesserkrankungen() {
 
 
 
-<div className="blue-icon-list"><ul >
-<li><h3>Individuelle Gesundheitsleistungen (IGEL)</h3></li>
+<div className="blue-icon-list">
+  <ul >
+   <h3>Individuelle Gesundheitsleistungen (IGEL)</h3>
     <li>Ausführliche Gesundheits- und Vorsorgeuntersuchungen, Untersuchung der Hals- und Bauchschlagader</li>
+    <li>Beratung und Begleitung der Patienten mit chronischen Wunden          </li>
 
-    <li>Beratung und Begleitung der Patienten mit chronischen Wunden
-    <ul>
-      <li><h3>Individuelle Gesundheitsleistungen (IGEL), Verödung der Krampfader und Besenreiser</h3></li>
+   
+      <h3>Individuelle Gesundheitsleistungen (IGEL), Verödung der Krampfader und Besenreiser</h3>
         <li>Diagnostik und Therapie der venöse Erkrankungen, Krampfader, offene Beine, Raucher Beine</li>
         <li>Diabetes mellitus, schlechtheilende Wunden</li>
         <li>Schaufenster Erkrankungen</li>
-        </ul>
-          </li>
         </ul>
       </div>
     </div>

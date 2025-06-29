@@ -13,7 +13,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="logo">
-          <span>Dr. Kambiz Fadaei</span>
+          <span>Kambiz Fadaei</span>
           <span className="subtitle">Facharzt für Gefäßchirurgie</span>
           <span className="subtitle">Sankt Augustin</span>
         </div>
@@ -28,7 +28,7 @@ function Navbar() {
           <div className="info-item">
             <p>
                📞 01573-2869453
-               📞 02241-9427418
+               &nbsp; 02241-9427418
               <br /> Schulstr. 38, 53757 Sankt Augustin
             </p>
           </div>

@@ -17,3 +17,15 @@ margin-bottom: 0px;
     text-decoration: none;
     color: rgb(24, 25, 26) ; 
 }
+.telefonliste {
+  line-height: 1.6;
+}
+
+.telefonliste p {
+  margin: 0;
+}
+.öffnungszeiten {
+  list-style: none;
+  margin: 6px;
+  padding: 0;
+}

@@ -12,9 +12,10 @@ export default function Footer() {
           <div className="footer-first-row">
             {/* Left Section */}
             <div className="footer-left">
-              <h4>Dr. Kambiz Fadaei <br/>Facharzt für Gefäßchirurgie</h4>
-              <p>Schulstraße 38, 53757 Sankt Augustin</p>
-              <p>Tel.: +49 2241-9427418 - 01573-2869453 </p>            
+              <h4>Kambiz Fadaei <br/>Facharzt für Gefäßchirurgie</h4>
+              <p>Schulstr. 38, 53757 Sankt Augustin</p>
+              <p>Tel.: 02241-9427418 <br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;01573-2869453 </p>            
               <p>Email: <a href="mailto:info@gefaesspraxis-fadaei.de">info@gefaesspraxis-fadaei.de</a></p>
             </div>
 
@@ -24,7 +25,7 @@ export default function Footer() {
 
               <h5>Unsere Sprechzeiten:</h5>
               <ul>
-                <li>Montag: 9:00 - 15:00</li>
+                <li>Montag: 9:00 - 15:00 Uhr</li>
                 <li>Dienstag: 9:00 - 15:00, 16:00 - 18:00 Uhr</li>
                 <li>Mittwoch: 09:00 - 15:00 Uhr</li>
                 <li>Donnerstag: 8:00 - 15:00 Uhr</li>
